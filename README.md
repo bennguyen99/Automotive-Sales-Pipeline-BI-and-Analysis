@@ -3,6 +3,6 @@ An Automotive Sales Operations BI solution (2025) designed to monitor operationa
 
 ## Project Background
 
-***This project is a replica of my enterprise work since I've signed an NDA with my company***
+***This project is based on reporting workflows from a real-world automotive sales operations environment.***
 
 Apex Auto Group (APX) is an automotive corporation
