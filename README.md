@@ -18,9 +18,9 @@ Data is refreshed hourly from operational extracts, ensuring managers have timel
 ## Data Structure
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/refs/heads/main/Visualizations/Dataset%20Description.jpg](https://github.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/blob/main/Images/ETL%20Process.drawio.png)" alt="Data Flow"/>
+  <img src="https://github.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/blob/main/Images/ETL%20Process.drawio.png" alt="Data Flow"/>
 </p>
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/bennguyen99/TOKI-Accommodation-Performance-Analysis-2024-2025/refs/heads/main/Visualizations/Dataset%20Description.jpg](https://github.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/blob/main/Images/Relationship%20Diagram.drawio.png)" alt="Data Model - Relationship Diagram"/>
+  <img src="https://github.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/blob/main/Images/Relationship%20Diagram.drawio.png" alt="Data Model - Relationship Diagram"/>
 </p>
