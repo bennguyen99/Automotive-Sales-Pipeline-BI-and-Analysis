@@ -24,7 +24,7 @@ In the **Silver layer**, raw retail data is restructured, cleansed, and enriched
 In the **Gold layer**, data is transformed into a business-ready star schema optimised for reporting. The retail domain was originally split across multiple source tables, each representing a different stage of the sales process. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/blob/main/Images/ETL%20Process.drawio.png" alt="Data Flow"/>
+  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/main/Images/ETL%20Process.drawio.png" alt="Data Flow"/>
 </p>
 
 To support flexible time-based filtering across all funnel stages, these tables were consolidated into a single fact table — allowing slicers and date dimensions to operate consistently across the entire report without cross-table complexity.
@@ -34,7 +34,7 @@ Deduplication is handled at the consolidation step. Since each source table cont
 An oversimplified version of the report is depicted below:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/blob/main/Images/Relationship%20Diagram.drawio.png" alt="Data Model - Relationship Diagram"/>
+  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/main/Images/Relationship%20Diagram.drawio.png" alt="Data Model - Relationship Diagram"/>
 </p>
 
 With a single fact table as the reporting foundation, Row-Level Security (RLS) implementation is straightforward: all access control is enforced through a clean fact-to-dimension relationship (`factretail_local` → `dimrls_local`), avoiding the complexity and risks associated with many-to-many relationships.
