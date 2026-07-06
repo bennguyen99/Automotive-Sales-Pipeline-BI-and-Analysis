@@ -41,5 +41,10 @@ With a single fact table as the reporting foundation, Row-Level Security (RLS) i
 
 ## Executive Summary
 
+1. 
 
+2. Full Payment Delay is the Most Persistent Operational Risk
+Across all three snapshots, Full Payment Delayed consistently recorded the highest delay volume — 1,400 in July MTD, 1,424 in December MTD, and 17,494 YTD — significantly outpacing both Delivery Request Delayed (8,742 YTD) and SCC Delayed (8,773 YTD). This suggests a systemic issue in payment collection rather than a seasonal or logistical one. Without resolving payment delays upstream, downstream stages (Handover and SCC) remain at risk of cascade delays.
 
+3. Order Finalization is the Biggest Bottleneck in the Active Pipeline
+Order Finalization Pending consistently held the highest count among all four pending categories — 2,909 in July, 2,813 in December, and 1,486 YTD (the lower YTD figure reflects resolved cases). The sub-breakdown reveals Full Payment Pending and Delivery Request Pending as the two primary contributors, directly linked to Finding 2. Unblocking Order Finalization is the single highest-leverage action available to improve monthly SCC output.
