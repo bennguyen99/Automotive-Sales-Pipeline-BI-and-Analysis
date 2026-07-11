@@ -79,15 +79,27 @@ The report also highlights a high concentration of business performance across A
 MTD Target Achievement rose from 23.29% in July to 42.29% in December, indicating a strong performance recovery in H2 2025. On a YTD basis, the network closed the year at 42.29% target achievement with 27,398 SCC transactions recorded against a total lead volume of 164,670 — representing an overall funnel conversion rate of approximately 16.6% from Lead to SCC.
 
 ### Full Payment Delay is the Most Persistent Operational Risk
-Full Payment Delayed consistently recorded the highest delay volume across all reporting periods, reaching 17,494 delayed transactions YTD, approximately twice the volume of either Delivery Request or SCC delays. This indicates that payment collection, rather than downstream logistics, is the primary operational bottleneck affecting transaction completion.
+Full Payment Delayed consistently recorded the highest delay volume across all reporting periods, reaching 17,494 delayed transactions YTD, approximately twice the volume of either Delivery Request or SCC delays and accounting for over 30% of all Order Finalization transactions. This indicates that payment collection, rather than downstream logistics, is the primary operational bottleneck constraining transaction completion across the network.
 
 ### Order Finalization is the Biggest Bottleneck in the Active Pipeline
-Order Finalization Pending consistently held the highest count among all four pending categories — 2,909 in July, 2,813 in December, and 1,486 YTD (the lower YTD figure reflects resolved cases). The sub-breakdown reveals Full Payment Pending and Delivery Request Pending as the two primary contributors, directly linked to Finding 2. Unblocking Order Finalization is the single highest-leverage action available to improve monthly SCC output.
+Order Finalization Pending consistently held the highest count among all four pending categories — 2,909 in July, 2,813 in December, and 1,486 YTD (the lower YTD figure reflects resolved cases). The sub-breakdown reveals Full Payment Pending and Delivery Request Pending as the two primary contributors. Unblocking Order Finalization is the single highest-leverage action available to improve monthly SCC output.
+
+To support this, the report's transaction-level drill-down allows Sales Managers to move beyond aggregate metrics and act on individual stalled deals directly from the dashboard.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/main/Images/Raw%20Data%20Table.png" alt="Raw Table filtered"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-Dashboard/main/Images/Delayed%20by%20Different%20Stakeholder%20Types.png" alt="Status and Delayed Status filter"/>
+</p>
+<p align="center"> 
+  <i> <b> Drill-down feature </b>: Allow BUs to locate all information relating to the delayed transactions and take actions immediately </i> 
+</p>
 
 ### Sales Volume Is Highly Concentrated in Two Flagship Showrooms
 Apex Manchester and Apex London together account for the majority of transaction volume across all stages. In the YTD view, Apex Manchester alone generated approximately 57,000 leads (~35% of total network volume). While this concentration reflects strong market presence in key locations, it also creates dependency risk — any operational disruption at either showroom disproportionately impacts network-level KPIs.
 
-### Sales Performance Depends Heavily on Financing Efficiency, Indicating Financing Health is Critical to Sales Velocity
+### Financing Efficiency is a Direct Lever on Sales Velocity
 Bank Financing accounted for 44.69% of overall payment methods and 44.61% of COI payment methods on a YTD basis — consistent across both MTD periods as well. Given that Full Payment Delay is the leading operational bottleneck, the heavy reliance on bank financing means that the quality of financing partnerships and approval turnaround times directly influence the dealership's ability to close transactions on schedule.
 
 ### Aethel and Centaur Drive the Majority of Brand Volume
@@ -154,5 +166,34 @@ Track Lead-to-SCC conversion by brand to distinguish high-interest brands from h
 
 #### Expected impact: Higher inventory turnover, improved campaign ROI, and better alignment between supply and market demand.
 
-## Dashboard features
+## Dashboard Features
+
+### Sales Funnel with MTD/YTD Toggle
+- Track the complete sales pipeline from **Lead** to **SCC** alongside **Target Achievement**.
+- Instantly switch between **MTD** and **YTD** views using bookmark navigation.
+- *Order Bank* is always displayed on a **YTD** basis as it represents active committed orders.
+
+### Pending & Delay KPI Monitoring
+- Monitor **Pending** and **Delayed** transactions across critical sales stages.
+- Quickly identify operational bottlenecks requiring immediate follow-up.
+
+### Transaction-Level Investigation
+- Drill from summary KPIs to individual transactions using **Stage** and **Delay Status** filters.
+- Identify stalled deals, assigned consultants, showrooms, and key dates for immediate action.
+
+### Performance Breakdown
+- Analyze performance by **Sales Consultant, Dealer, Showroom, Brand, Segment, Model Class,** and **Body Type**.
+- Independent **Stage** and **Status** slicers enable focused analysis without affecting overall KPIs.
+
+### Payment Method Analysis
+- Compare transaction volume and share across payment methods, including **COI** transactions.
+- Monitor financing mix and customer payment behavior.
+
+### Multi-Dimensional Filtering
+- Slice data by **Dealer, Showroom, Brand, Segment, Model, Sales Channel, Transaction Type, Fleet, EMH,** and **Concession**.
+- Support both executive-level monitoring and transaction-level operational analysis.
+
+### Role-Based Access Control
+- Restrict report access by **Dealer** and **Showroom** using **Row-Level Security (RLS)**.
+- Ensure users only view data relevant to their assigned business unit while maintaining a single semantic model.
 
