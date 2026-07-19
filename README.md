@@ -1,4 +1,7 @@
 # Automotive Sales Pipeline BI and Analysis
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bennguyen99/Automotive-Sales-Pipeline-BI-and-Analysis/main/Images/Apex%20Banner.png" alt="APX Banner"/>
+</p>
 A Business Intel solution for automotive sales operations (2025) designed to monitor operational KPIs, identify transaction bottlenecks, and support business decision-making through a star-schema semantic model and interactive Power BI reports. This BI report is inspired by a real-world enterprise reporting solution that I worked on.
 
 ## Project Background
